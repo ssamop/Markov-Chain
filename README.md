@@ -1,8 +1,8 @@
-Continuous-Time Markov Chain Modeling of a Wireless LAN
+## Continuous-Time Markov Chain Modeling of a Wireless LAN
 
 The project revolves around the design and simulation of a wireless local area network (LAN) with three access points, catering to the dynamic connectivity needs of users. The primary objective is to construct a continuous-time Markov chain model to represent the system, simulating the user interactions within the network.
 
-## System Overview:
+### System Overview:
 In this wireless LAN setup, each access point has a maximum capacity of K users, and a user connects to the access point with the strongest signal that is not currently at its maximum capacity. If access point 1 is full, the user attempts to connect to access point 2, and if both are full, the user connects to access point 3. Users connected to access points 2 and 3 can instantly switch to access point 1 when available. Additionally, access point 3 is given priority in switching to access point 1 when both access points 2 and 3 become available simultaneously.
 
 ### Key Project Components:
